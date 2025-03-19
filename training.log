@@ -1,0 +1,11 @@
+2025-03-19 09:49:04,270 - INFO - Step 0: Training loss 11.0103
+2025-03-19 09:49:06,940 - INFO - Epoch 1, Step 0: Train Loss 9.744, Val Loss 9.840
+2025-03-19 09:49:11,634 - INFO - Step 1: Training loss 9.7647
+2025-03-19 09:49:17,192 - INFO - Step 2: Training loss 9.2357
+2025-03-19 09:49:22,586 - INFO - Step 3: Training loss 9.1639
+2025-03-19 09:49:27,537 - INFO - Step 4: Training loss 8.8048
+2025-03-19 09:49:32,507 - INFO - Step 5: Training loss 8.4010
+2025-03-19 09:49:35,119 - INFO - Epoch 1, Step 5: Train Loss 7.845, Val Loss 8.039
+2025-03-19 09:49:39,895 - INFO - Step 6: Training loss 8.3565
+2025-03-19 09:49:43,955 - INFO - Step 7: Training loss 7.6579
+2025-03-19 09:49:48,209 - INFO - Step 8: Training loss 7.8593

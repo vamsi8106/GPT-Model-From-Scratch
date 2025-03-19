@@ -1,0 +1,8 @@
+torch
+matplotlib
+tiktoken
+urllib3
+numpy
+pandas
+logging
+
