@@ -17,25 +17,29 @@ This project trains a GPT2-based language model on a given text dataset. The mod
 
 Ensure you have Python installed (preferably Python 3.10+). Install the required dependencies using:
 
-```bash
-pip install -r requirements.txt
-```
 1. **Clone the Repository**
 
    ```bash
-   git clone https://github.com/vamsi8106/Document-Chat.git
+   https://github.com/vamsi8106/GPT-Model-From-Scratch.git
    ```
+2. **Install requirements**
+    ```bash
+    cd GPT-Model-From-Scratch
+    ```
+    ```bash
+    pip install -r requirements.txt
+    ```
 
-2. **Ensure .txt data file is present in data/ folder**
+3. **Ensure .txt data file is present in data/ folder**
 
     - Prepare Data: Place any .txt file in the data/ directory.
 
-3. **Run Training:**
+4. **Run Training:**
 
   ```bash
   python gpt_train.py
 ```
-4. **Run Testing on sample:**
+5. **Run Testing on sample:**
    
   ```bash
   python gpt_test.py
@@ -50,6 +54,8 @@ pip install -r requirements.txt
   - Loss plot is saved in metrics/loss.png
 
 ## Directory Structure
+
+- After training the folder structure would look like below:
 
 ```bash
 .
@@ -66,7 +72,7 @@ pip install -r requirements.txt
 ```
 ## Configuration
 
-Hyperparameters can be modified in gpt_train.py:
+ - Hyperparameters can be modified in gpt_train.py:
 ```bash
 OTHER_SETTINGS = {
     "learning_rate": 5e-4,
